@@ -42,4 +42,4 @@ def login():
             session['logged_in'] = True
             flash('Welcome!')
             return redirect(url_for('tasks'))
-    return render_template('login/html')
+    return render_template('login.html')

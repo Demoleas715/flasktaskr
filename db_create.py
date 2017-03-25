@@ -1,6 +1,7 @@
 # project/db_create.py
 
 import sqlite3
+
 from _config import DATABASE_PATH
 
 with sqlite3.connect(DATABASE_PATH) as connection:
